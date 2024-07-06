@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Slate1 : hsl(202, 86%, 94%);
+    --Slate2: hsl(203, 41%, 72%);
+    --Slate3: hsl(200, 26%, 54%);
+    --Slate4: hsl(200, 24%, 40%);
+    --Slate5: hsl(202, 55%, 16%);
+    --Lime: hsl(61, 70%, 52%);
+    --Red: hsl(4, 69%, 50%)    ;
+    --Font-size :16px ;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: var(--Slate1);
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 33px 0px 3px 33px;
+}
+
+
+.container{
+    align-content: center;
+    width: 400px;
+    background-color: var(--White);
+    height: 439px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+label{
+    display: flex;
+    margin: 8px;
+    color: var(--Slate4);
+}
+
+.aaa{
+    background-color: var(--Lime);
+    padding: 8px;
+}
+
+.div-amount{
+    border: 1px solid gray;
+    display: flex;
+    width: 89%;
+    margin: 9px;
+    border-radius: 5px;
+
+}
+input.input-amount{
+    border: 0;
+    border: 0;
+    padding: 7px;
+    width: 91%;
+}
+
+.year{
+    background-color: var(--Slate1);
+    padding: 5px;
+}
+
+.input-group{
+    border: 1px solid gray;
+    display: inline-block;
+    width: 77%;
+border-radius: 5px;
+  
+    margin: 5px;
+
+}
+input.input-control{
+    border: 0;
+    width: 61%;
+    padding: 7px; 
+}
+
+.input-percent{
+    border: 1px solid gray;
+    display: inline-block;
+    width: 77%;
+border-radius: 5px;
+    margin: 5px;
+
+}
+input.input-darsad{
+    border: 0;
+    width: 71%;
+    padding: 7px;
+} 
+
+.section-input-years{
+    display: flex;
+}
+
+.input-rep{
+    margin: 5px;
+    display: flex;
+    border: 1px solid var(--Slate4);
+    width: 89%;
+    border-radius: 5px;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+
+.input-int{
+    margin: 5px;
+    display: flex;
+    border: 1px solid var(--Slate4);
+    width: 89%;
+    border-radius: 5px;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+ 
+}
+
+.checkbox-input{
+    margin: 6px;
+}
+
+.button{
+    display: flex;
+    width: 68%;
+    height: 43px;
+    border-radius: 33px;
+    margin: 20px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Lime);
+}
+
+.img-calculator{
+    width: 18px;
+    margin-right: 5px;
+}
+
+.Result-container{
+    background-color: var(--Slate5);
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 0px 33px 33px 87px;
+}
+
+.illustration{
+    width: 25%;
+}
+
+.tag-result{
+    color: var(--White);
+}
+
+.tag-pp{
+    color: var(--Slate1);
+    font-size: 10px;
+    width: 236px;
+    margin-top: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 375px) {
+.container{
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+.section-input-years {
+    display: flex;
+    flex-direction: column;
+}
+.Result-container{
+    height: 35%;
+    border-radius: 0;
+display: flex;
+height: 298px;
+}
+
+.year {
+    background-color: var(--Slate1);
+    padding: 8px;
+}
+
+.input-group{
+    border: 1px solid gray;
+    display: flex;
+    width: 89%;
+    margin: 9px;
+    border-radius: 5px;
+}
+input.input-control{
+    border: 0;
+    padding: 7px;
+    width: 91%;
+  
+}
+
+.input-percent{
+    border: 1px solid gray;
+    display: flex;
+    width: 89%;
+    margin: 9px;
+    border-radius: 5px;
+
+
+}
+input.input-darsad{
+    border: 0;
+    padding: 7px;
+    width: 91%;
+  
+} 
+
+}
+
+
+
+@media screen and (max-width: 800px ){
+    .container{
+        display: flex;
+        height: 53%;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+    }
+.Result-container{
+    height: 35%;
+    width: 90%;
+}
+
+.aaa {
+    background-color: var(--Slate1);
+    padding: 8px;
+}
+
+.year {
+    background-color: var(--Slate1);
+    padding: 8px;
+}
+
+.input-group{
+    border: 1px solid gray;
+    display: flex;
+    width: 89%;
+    margin: 9px;
+    border-radius: 5px;
+}
+input.input-control{
+    border: 0;
+    padding: 7px;
+    width: 91%;
+  
+}
+
+.input-percent{
+    border: 1px solid gray;
+    display: flex;
+    width: 89%;
+    margin: 9px;
+    border-radius: 5px;
+
+
+}
+input.input-darsad{
+    border: 0;
+    padding: 7px;
+    width: 91%;
+  
+} 
+}
